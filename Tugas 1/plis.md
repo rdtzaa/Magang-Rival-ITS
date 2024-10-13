@@ -1,1 +1,0 @@
-Tugas Menangkap Permen
