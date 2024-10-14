@@ -4,8 +4,6 @@ project( oprec )
 
 find_package( OpenCV REQUIRED )
 
-add_executable( oprec src/game.cpp src/tangkap_permen.cpp )
+add_executable( Rival_1 src/game.cpp src/tangkap_permen.cpp )
 
-##add_executable( oke1 src/progrobot.cpp )
-
-target_link_libraries( oprec ${OpenCV_LIBS} )
+target_link_libraries( Rival_1 ${OpenCV_LIBS} )
