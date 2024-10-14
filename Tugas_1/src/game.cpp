@@ -26,9 +26,9 @@ int main() {
     Point posisiPermen(rand() % panjang, rand() % lebar);
     int diameterPermen = 10;
 
-    Permen permen(posisiPermen, diameterPermen);
-    float speedX = 2.0f;
-    float speedY = 2.0f;
+    Permen permen(diameterPermen);
+    float speedX = 4.0f;
+    float speedY = 5.0f;
 
     while (true) {
         kamera >> frame;
