@@ -24,7 +24,7 @@ int main() {
     
     Scalar warnaPermen(255, 0, 0), warnaJaring(255, 255, 255);
     Point posisiPermen(rand() % panjang, rand() % lebar);
-    int diameterPermen = 10;
+    int diameterPermen = 7;
 
     Permen permen(diameterPermen);
     float speedX = 4.0f;
@@ -42,7 +42,7 @@ int main() {
         vector<vector<Point>> kontur;
         findContours(lim_color, kontur, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
 
-        permen.gambarPermen(posisiPermen, frame_clone, warnaPermen, diameterPermen);
+        permen.gambarPermen(posisiPermen, frame_clone, warnaPermen);
         posisiPermen.x += (int) speedX;
         posisiPermen.y += (int) speedY;
 
