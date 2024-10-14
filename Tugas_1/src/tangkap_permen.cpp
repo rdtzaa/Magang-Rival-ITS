@@ -5,7 +5,7 @@ Permen::Permen(int diameter)
     : diameter(diameter) {}
 
 void Permen::gambarPermen(Point posisi, Mat tampilan, const Scalar warna) {
-    circle(tampilan, posisi, diamater, warna, -1);
+    circle(tampilan, posisi, diameter, warna, -1);
 }
 
 void Permen::tampilSkor(Mat tampilan, int score, const Scalar warna) {
