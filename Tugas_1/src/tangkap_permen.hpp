@@ -10,7 +10,7 @@ class Permen {
     void gambarPermen(Point posisi, Mat tampilan, const Scalar warna);
     void tampilSkor(Mat tampilan, int score, const Scalar warna);
 
-    private;
+    private:
     int diameter;
 };
 
