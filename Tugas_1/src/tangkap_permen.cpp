@@ -1,8 +1,8 @@
 #include "tangkap_permen.hpp"
 using namespace cv;
 
-Permen::Permen(Point posisi, int diameter)
-    : posisi(posisi), diameter(diameter) {}
+Permen::Permen(int diameter)
+    : diameter(diameter) {}
 
 void Permen::gambarPermen(Point posisi, Mat tampilan, const Scalar warna) {
     circle(tampilan, posisi, diamater, warna, -1);
