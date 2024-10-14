@@ -1,0 +1,3 @@
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/build/CMakeFiles/rebuild_cache.dir
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/build/CMakeFiles/edit_cache.dir
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/build/CMakeFiles/Rival_1.dir

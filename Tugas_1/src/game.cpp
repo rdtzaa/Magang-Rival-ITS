@@ -24,7 +24,7 @@ int main() {
     
     Scalar warnaPermen(255, 0, 0), warnaJaring(255, 255, 255);
     Point posisiPermen(rand() % panjang, rand() % lebar);
-    int diameterPermen = 7;
+    int diameterPermen = 10;
 
     Permen permen(diameterPermen);
     float speedX = 4.0f;

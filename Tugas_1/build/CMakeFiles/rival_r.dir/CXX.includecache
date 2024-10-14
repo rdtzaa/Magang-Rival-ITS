@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/src/game.cpp
+iostream
+-
+opencv4/opencv2/opencv.hpp
+-
+tangkap_permen.hpp
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/src/tangkap_permen.hpp
+
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/src/tangkap_permen.cpp
+tangkap_permen.hpp
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/src/tangkap_permen.hpp
+iostream
+-
+
+/home/radityazhaa/Documents/Magang-Rival-ITS/Tugas_1/src/tangkap_permen.hpp
+opencv4/opencv2/opencv.hpp
+-
+

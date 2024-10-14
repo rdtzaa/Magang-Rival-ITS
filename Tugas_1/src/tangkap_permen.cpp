@@ -1,4 +1,6 @@
 #include "tangkap_permen.hpp"
+#include <iostream>
+using namespace std;
 using namespace cv;
 
 Permen::Permen(int diameter)
