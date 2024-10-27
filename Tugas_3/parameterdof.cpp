@@ -4,7 +4,7 @@
 #include <iomanip>
 using namespace std;
 
-void multiplyMatrices(double m1[4][4], double m2[4][4], double result[4][4]) {
+void kaliMatrix(double m1[4][4], double m2[4][4], double result[4][4]) {
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
             result[i][j] = 0;
@@ -54,8 +54,8 @@ int main() {
         double result1[4][4];
         double result2[4][4];
 
-        multiplyMatrices(mtx01, mtx02, result1);
-        multiplyMatrices(result1, mtx03, result2);
+        kaliMatrix(mtx01, mtx02, result1);
+        kaliMatrix(result1, mtx03, result2);
 
         cout << fixed << setprecision(2);
         cout << result2[0][3] << endl << result2[1][3] << endl << result2[2][3];
@@ -92,8 +92,8 @@ int main() {
         double result1[4][4];
         double result2[4][4];
 
-        multiplyMatrices(mtx01, mtx02, result1);
-        multiplyMatrices(result1, mtx03, result2);
+        kaliMatrix(mtx01, mtx02, result1);
+        kaliMatrix(result1, mtx03, result2);
 
         cout << fixed << setprecision(2);
         cout << result2[0][3] << endl << result2[1][3] << endl << result2[2][3];
